@@ -1,7 +1,7 @@
 
 
 body {
-  background-color: #2E2929;
+  background-color: #292c2e;
 }
 
 
@@ -43,17 +43,14 @@ p {
 
 
 a {
-  color: white;
-  font-family: IBM Plex Mono, Regular;
-  word-wrap: break-word;
-  line-height: 1.6;
-/*   padding-left: 40px;  */
-  font-size: 17px;
-  padding-bottom: 0px;
-  margin-bottom:0px;
+  font-size: 15px;
+  padding-top: 0px;
   margin-top: 0px;
-  margin: 0px;
+  margin-left: 2px;
+  margin-bottom: 54px;
+  color: rgb(255, 252, 252);
 
+  
 }
   
 
@@ -147,8 +144,22 @@ a {
 
 .skill_text {
   margin-left: 30px;
-  padding-top: 0.8%;
+  padding-top: 0.3%;
 
+}
+
+.contact {
+  font-size: 15px;
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  color: rgb(185, 185, 185);
+  margin-left: 0px;
+  padding-top: 0.8%;
+  color: white;
+  font-family: IBM Plex Mono, Regular;
+  word-wrap: break-word;
+  line-height: 1.6;
+  padding-left: 40px; 
 }
 
   
