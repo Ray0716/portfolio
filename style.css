@@ -55,8 +55,10 @@ body {
     
   
   .header {
-    margin-bottom: 17px;
-    height: 56px;
+    
+    margin-top: 26px;
+    margin-bottom: 20px;
+    height: 60px;
     font-size: 22px;
   }
   
@@ -111,12 +113,15 @@ body {
   }
     
   
-    
+    hr{
+        color:grey
+    }
   
   .hr_divider {
     margin-left: 20px;
     margin-right: auto;
-    color: rgb(193, 196, 198);
+    margin-top: 3vw;
+    border: 1px solid rgb(161, 159, 159);
     /*width: 500px; */
   }
   
