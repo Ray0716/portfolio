@@ -132,8 +132,18 @@ body {
   }
   
   
-  
-  
+  .top_icon {
+      width: 37px;
+      height: 37px;
+      stroke-width: 1.5px;
+      color: white;
+      padding-top: 36px;
+      padding-right: 30px;
+      float: right;
+      
+    
+  }
+
   
   .small_icon {
     width: 27px;
