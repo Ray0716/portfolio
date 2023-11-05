@@ -1,6 +1,7 @@
 
 body {
     background-color: #292c2e;
+    margin-right: 30px;
   }
   
   
@@ -19,7 +20,19 @@ body {
     font-size: 1.10rem;
   }
   
-  
+  @media screen and (max-width: 600px) {
+    .nameheader {
+      padding-top: 0px;
+      word-wrap:none;
+    }
+    .clock {
+        margin-top: 20px;
+        padding-top: 50px;
+    }
+    .row {
+      display:block;
+    }
+  }
   
   
   .nameheader {
@@ -27,10 +40,11 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
+    padding-top: 0px;
+    margin-top: 20px;
     padding-left: 2.5rem; /* idk what 40px is in rem so*/
-    margin-top: 25px; 
     /*height: 34px    liek idk oml what happened to the cpu again;*/
-    font-size: 2.6rem;
+    font-size: 3.1rem;
   }
   
   
@@ -40,6 +54,7 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
+    font-size: 1.03em;
     padding-left: 40px; 
   
   }
@@ -59,8 +74,8 @@ body {
   
   .header {
     
-    margin-top: 26px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     height: 60px;
     font-size: 22px;
   }
@@ -73,7 +88,7 @@ body {
   */
   
   .section_header {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 21px;
     margin-bottom: 11px;
   }
@@ -87,6 +102,15 @@ body {
     margin-bottom: 14px;
     color: rgb(185, 185, 185);
   /*   line-height: 1.2; */
+  }
+
+  .clock {
+    font-size: 16px;
+    padding-top: 0px;
+    margin-top: 14px;
+    margin-left: 2px;
+    margin-bottom: 14px;
+    color: rgb(185, 185, 185);
   }
   
   
@@ -106,7 +130,7 @@ body {
   }
   
   .column {
-    flex: 50%;
+    flex: auto;
   }
   
   .proj_small_text {
@@ -129,16 +153,15 @@ body {
   
   .hr_divider {
     margin-left: 20px;
-    margin-right: auto;
-    margin-top: 3vw;
-    border: 1px solid rgb(161, 159, 159);
+    margin-top: 12px;
+    border: 1px solid rgb(168, 167, 167);
     /*width: 500px; */
   }
   
   .hr_small {
     margin-left: 20px;
-    width:50%;
-    border: 1px solid grey;
+    /* width:94vw; */
+    border: 1px solid rgb(86, 86, 86);
   }
   
   
@@ -148,13 +171,12 @@ body {
       stroke-width: 1.5px;
       color: white;
       padding-top: 41px;
-      padding-top: 36px;
       padding-right: 30px;
       float: right;
       
     
   }
-
+  
   
   .small_icon {
     width: 27px;
@@ -182,7 +204,7 @@ body {
   
   .skill_text {
     margin-left: 30px;
-    padding-top: 0.3%;
+    
   
   }
   
@@ -197,7 +219,7 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
-    padding-left: 40px; 
+    padding-left: 17px; 
   }
   
     
