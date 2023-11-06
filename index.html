@@ -219,60 +219,14 @@
 <div class="row">
   <div class="column">
     <div class="header">
-      <script>const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()[]{};':<>?/";
-        let interval = null;
-        
-        document.querySelector(".nameheader").onmouseover = event => {  
-          let iteration = 0;
-          
-          clearInterval(interval);
-          
-          interval = setInterval(() => {
-            event.target.innerText = event.target.innerText.split("")
-              .map((letter, index) => {
-                if(index < iteration) {
-                  return event.target.dataset.value[index];
-                }
-              
-                return letters[Math.floor(Math.random() * letters.length)]
-              })
-              .join("");
-            
-            if(iteration >= event.target.dataset.value.length){ 
-              clearInterval(interval);
-            }
-            
-            iteration += 1 / 3;
-          }, 30);
-        }</script>
+     
       <h1 class = "nameheader" data-value="Ray Tang • 唐瑞">Ray Tang • 唐瑞</h1>
 	</div>
 
 <!-- <hr class="hr_divider"> -->
     
-<script type="text/javascript">
 
-    function time() {
-        const today = new Date();
-  		const day = today.getDay();
-		  const daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
-		  const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+'   ';
-		
-		
-		      
-		  const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + ' GMT+0400';
-		  const dateTime = date+' '+time;
-   
-  document.getElementById("displayDateTime").innerHTML = dateTime + ' <br>' + daylist[day];
- 
-    }
 
-    setInterval(function () {
-      time()
-    }, 1000);
-  </script>
-
-    
     <p class="clock" id = "displayDateTime"></p>
 
 </div>
@@ -320,7 +274,7 @@
 
     
     
-<p>- Student <br>- Developer <br>- Competitive Pianist <br>- Math Research Student <br>- prepping 4 usaco bronze</p><br>
+<p id = "hhh">- Student <br>- Developer <br>- Competitive Pianist <br>- Math Research Student <br>- prepping 4 usaco bronze</p><br>
 
 
     <div >
@@ -349,7 +303,8 @@
   <path d="M11 13l9 -9"></path>
   <path d="M15 4h5v5"></path>
 </svg>
-    <p class="p_text"><a href="https://americanprotege.com/talent2018spring/">2nd Place - American Protege International Music Talent Competition</a></p>
+    <p class="p_text"><a href="https://americanprotege.com/talent2018spring/" style="
+      text-decoration: underline; color: white;">2nd Place - American Protege International Music Talent Competition</a></p>
     </div>
     <p class="subheading">2022</p>
 <div style="    margin-left: 62px;
@@ -361,7 +316,8 @@
       <path d="M11 13l9 -9"></path>
       <path d="M15 4h5v5"></path>
     </svg>
-        <p class="p_text"><a href="https://concertfestival.org/concerto-competition/">Grand Prix - Concert Festival International Competition</a></p>
+        <p class="p_text"><a href="https://concertfestival.org/concerto-competition/"style="
+          text-decoration: underline; color: white;">Grand Prix - Concert Festival International Competition</a></p>
 
 
     <svg xmlns="http://www.w3.org/2000/svg" class="picon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -370,7 +326,8 @@
       <path d="M11 13l9 -9"></path>
       <path d="M15 4h5v5"></path>
     </svg>
-        <div><p class="p_text"><a href="https://americanprotege.com/competition-of-romantic-music-2022/">3rd Place - American Protege International Romantic Music Comp.</a></p></div>
+        <div><p class="p_text"><a href="https://americanprotege.com/competition-of-romantic-music-2022/"style="
+          text-decoration: underline; color: white;">3rd Place - American Protege International Romantic Music Comp.</a></p></div>
     </div>
         <p class="subheading">2023</p>
         <div style="    margin-left: 62px;
@@ -381,7 +338,8 @@
           <path d="M11 13l9 -9"></path>
           <path d="M15 4h5v5"></path>
         </svg>
-            <p class="p_text"><a href="https://americanprotege.com/piano-and-strings-competition-2023/">2rd Place - American Protege International Piano and Strings Comp.</a></p>
+            <p class="p_text"><a href="https://americanprotege.com/piano-and-strings-competition-2023/"style="
+              text-decoration: underline; color: white;">2rd Place - American Protege International Piano and Strings Comp.</a></p>
 
 </div>
 
@@ -394,7 +352,14 @@
     <div class="row">
 <div class="column">
   
-<svg xmlns="http://www.w3.org/2000/svg" class="small_icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="padding-top: 17px;" >
+<svg xmlns="http://www.w3.org/2000/svg" style="width: 27px;
+height: 27px;
+stroke-width: 1px;
+color: white;
+margin-left: 35.3px;
+padding-top: 17px;
+float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
+ >
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <path d="M12 9h-7a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h3"></path>
    <path d="M12 15h7a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2h-3"></path>
@@ -473,7 +438,14 @@
 </div>
     <div class="column" style="padding-right: 25vw;">
       
-      <svg xmlns="http://www.w3.org/2000/svg" class="small_icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="padding-top: 17px;" >
+      <svg xmlns="http://www.w3.org/2000/svg" style="width: 27px;
+      height: 27px;
+      stroke-width: 1px;
+      color: white;
+      margin-left: 35.3px;
+      padding-top: 17px;
+      float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"
+       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M18 12h4"></path>
         <path d="M20 10v4"></path>
@@ -666,4 +638,73 @@
   </body>
   
   <link rel="stylesheet" href="/assets/css/style.css">
+  <script type="text/javascript">
+
+    function time() {
+        const today = new Date();
+  		const day = today.getDay();
+		  const daylist = ["Sunday","Monday","Tuesday","Wednesday ","Thursday","Friday","Saturday"];
+		  const date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate()+'   ';
+		
+		
+		      
+		  const time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds() + ' GMT+0400';
+		  const dateTime = date+' '+time;
+   
+  document.getElementById("displayDateTime").innerHTML = dateTime + ' <br>' + daylist[day];
+ 
+    }
+
+    setInterval(function () {
+      time()
+    }, 1000);
+  </script>
+
+<script type="text/javascript">
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()[]{};':<>?/";
+  let interval = null;
+  let animationPlayedOnce = false;
+  
+  function playAnimation(event) {
+    let iteration = 0;
+    clearInterval(interval);
+    interval = setInterval(() => {
+      event.target.innerText = event.target.innerText
+        .split("")
+        .map((letter, index) => {
+          if (index < iteration) {
+            return event.target.dataset.value[index];
+          }
+          return letters[Math.floor(Math.random() * letters.length)];
+        })
+        .join("");
+  
+      if (iteration >= event.target.dataset.value.length) {
+        clearInterval(interval);
+      }
+      iteration += 1 / 3;
+    }, 30);
+  }
+  
+  document.addEventListener("DOMContentLoaded", () => {
+    const heading = document.querySelector(".nameheader");
+  
+    function playOnLoadAndHover() {
+      if (!animationPlayedOnce) {
+        playAnimation({ target: heading });
+        animationPlayedOnce = true;
+  
+        heading.addEventListener("mouseover", (event) => {
+          playAnimation(event);
+        });
+      }
+    }
+  
+    // Add a delay before playing the animation
+    setTimeout(playOnLoadAndHover, 1299); // Adjust the delay time in milliseconds (e.g., 1000 milliseconds = 1 second)
+  });
+  </script>
+
+  
+  
 </html>
