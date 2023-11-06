@@ -727,7 +727,7 @@ float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke
       event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
-          if (index < iteration) {
+          if (index < (iteration - 25)) {
             return event.target.dataset.value[index];
           }
           return letters[Math.floor(Math.random() * letters.length)];
