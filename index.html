@@ -720,26 +720,7 @@ float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke
   let interval = null;
   let animationPlayedOnce = false;
   
-  function playAnimationFirst(event) {
-    let iteration = 0;
-    clearInterval(interval);
-    interval = setInterval(() => {
-      event.target.innerText = event.target.innerText
-        .split("")
-        .map((letter, index) => {
-          if (index < iteration ) {
-            return event.target.dataset.value[index];
-          }
-          return letters[Math.floor(Math.random() * letters.length)];
-        })
-        .join("");
   
-      if (iteration >= event.target.dataset.value.length) {
-        clearInterval(interval);
-      }
-      iteration += 1 / 5;
-    }, 30);
-  }
 
 	function playAnimation(event) {
     let iteration = 0;
@@ -769,7 +750,7 @@ float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke
   
     function playOnLoadAndHover() {
       if (!animationPlayedOnce) {
-        playAnimationFirst({ target: heading });
+        playAnimation({ target: heading });
         animationPlayedOnce = true;
   
         heading.addEventListener("mouseover", (event) => {
