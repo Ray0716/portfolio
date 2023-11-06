@@ -727,7 +727,7 @@ float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke
       event.target.innerText = event.target.innerText
         .split("")
         .map((letter, index) => {
-          if (index < (iteration - 25)) {
+          if (index < iteration ) {
             return event.target.dataset.value[index];
           }
           return letters[Math.floor(Math.random() * letters.length)];
@@ -737,7 +737,7 @@ float: left;" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke
       if (iteration >= event.target.dataset.value.length) {
         clearInterval(interval);
       }
-      iteration += 1 / 3;
+      iteration += 1 / 5;
     }, 30);
   }
 
