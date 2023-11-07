@@ -2,6 +2,7 @@
 body {
     background-color: #292c2e;
     margin-right: 30px;
+    margin-left: 8px
   }
   
   
@@ -45,8 +46,9 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
-    font-size: 1.07em;
-    padding-left: 40px; 
+    font-size: 1.17em;
+    padding-left: 40px;
+    font-weight: 300;
   
   }
   
@@ -119,10 +121,11 @@ body {
   */
   
   .section_header {
-    font-size: 30px;
+    font-size: 2.2em;
     margin-top: 21px;
     margin-bottom: 11px;
-  }
+}
+  
   
     
   .small_text {
@@ -262,7 +265,7 @@ body {
   
   .hr_small {
     margin-left: 20px;
-    /* width:94vw; */
+    width:85vw;
     border: 1px solid rgb(86, 86, 86);
   }
   
@@ -316,9 +319,10 @@ body {
     stroke-width: 1.5px;
     color: white;
     padding-right: 0px;
-    margin-right: 0px;
-    padding-top: 3px;
+    margin-right: 12px;
+    margin-top: 2px;
     float: left;
+
     
   } 
   .scon {
@@ -327,10 +331,10 @@ body {
     stroke-width: 1.5px;
     color: white;
     padding-right: 0px;
-    margin-left: 48px;
     margin-right: 0px;
-    padding-top: 3px;
+    margin-top: 2px;
     float: left;
+    margin-left: 48px;
     
   } 
   
@@ -354,7 +358,9 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
-    padding-left: 17px; 
+    padding-left: 17px;
+    font-weight: 300;
+    text-decoration: underline;
   }
   
     
