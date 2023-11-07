@@ -229,6 +229,7 @@
 
     <p class="clock" id = "displayDateTime"></p>
 
+    <a href="https://git.io/typing-svg" class="anitop"><img src="https://readme-typing-svg.herokuapp.com?font=IBM+Plex+Mono&weight=300&duration=4000&color=F7F7F7&random=false&width=449&height=45&lines=Student;Developer;Competitive+Pianist;Math+Research+Student;VRC+Robotics+Team+Captian" alt="Typing SVG" /></a>
 
 
 </div>
@@ -276,22 +277,25 @@
 
 
 </div>
+
+
 </div>
     
+
     <hr class = "hr_divider" style="color:grey">
 
+  
+<br>
 
 
     
-    
-<p>- Student <br>- Developer <br>- Competitive Pianist <br>- Math Research Student <br>- prepping 4 usaco bronze</p><br>
 
 
     <div >
-      <p class="section_header">About</p>
+      <p class="section_header" id = "about">About</p>
     </div>
     
-    <hr class = "hr_small">
+    <hr class = "hr_small" style="margin-bottom: 30px;">
 
 
 
@@ -299,10 +303,14 @@
 
 
   
-    
-      <p>- thx for coming lol <br>- i have another website in progress, this one is just temporary</p><br>
+      <p id="age" class="text"></p>
+      <p class="text">- interested in stem math CS engineering whatever </p>
+      <p class="text">- i do some piano comps + coding stuff</p>
 
-    <p class="section_header">Piano</p>
+      <p class="text">- currently prepping for USACO bronze & President of school VRC team</p>
+      <p class="text">- might remake website in the future - thx for coming</p><br>
+  
+    <p class="section_header" id = "piano">Piano</p>
     <hr class = "hr_small" style="margin-bottom:15px;">
 <p class="subheading">2018</p>
 <div style="    margin-left: 62px;
@@ -355,7 +363,7 @@
 
 
 <div >
-      <p class="section_header" >Skills</p>
+      <p class="section_header" id = "skills">Skills</p>
     </div>
     
     <hr class = "hr_small" style="margin-bottom:15px;">
@@ -545,7 +553,7 @@
 <br>
 
 <div >
-      <p class="section_header" >Projects</p>
+      <p class="section_header" id = "projects">Projects</p>
     </div>
     
     <hr class = "hr_small" style="margin-bottom:35px;">
@@ -590,7 +598,7 @@
 
     
 <div >
-      <p class="section_header" >Contact</p>
+      <p class="section_header" id = "contact">Contact</p>
     </div>
     
     <hr class = "hr_small" style="margin-bottom:15px;">
@@ -749,6 +757,38 @@
     // Add a delay before playing the animation
     setTimeout(playOnLoadAndHover, 590); // Adjust the delay time in milliseconds (e.g., 1000 milliseconds = 1 second)
   });
+
+
+  
+  </script>
+
+
+
+<script type="text/javascript">
+  function updateAge() {
+      // Update this date to the person's birthdate in "YYYY-MM-DD" format
+      const birthDate = new Date('2008-01-01'); // Change this to the person's birthdate
+  
+      const today = new Date();
+      const age = today.getFullYear() - birthDate.getFullYear();
+  
+      // Check if the birthday has occurred this year
+      if (
+          today.getMonth() < birthDate.getMonth() ||
+          (today.getMonth() === birthDate.getMonth() && today.getDate() < birthDate.getDate())
+      ) {
+          // If the birthday hasn't occurred this year, subtract 1 from age
+          document.getElementById('age').textContent = ` - ${age - 1} year old student based in NY`;
+      } else {
+          document.getElementById('age').textContent = ` - ${age} year old student based in NY`;
+      }
+  }
+  
+  // Initial call to set the age
+  updateAge();
+  
+  // Update the age every day (24 hours)
+  setInterval(updateAge, 24 * 60 * 60 * 1000); // Update every day
   </script>
 
   
