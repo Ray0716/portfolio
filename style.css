@@ -261,11 +261,16 @@ body {
     height: 37px;
     stroke-width: 1.5px;
     color: white;
-    margin-top: 40px;
-    margin-right: 32px;
+    
     float: right;
+
+    margin-right:40px; margin-top:45px;
       
     
+  }
+
+  .last {
+
   }
   
   
