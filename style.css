@@ -17,7 +17,7 @@ body {
   
   } */
   .subheading{
-    font-size: 1.10rem;
+    font-size: 1.12rem;
   }
   
   @media screen and (max-width: 600px) {
@@ -44,7 +44,7 @@ body {
     font-family: IBM Plex Mono, Regular;
     word-wrap: break-word;
     line-height: 1.6;
-    font-size: 1.03em;
+    font-size: 1.07em;
     padding-left: 40px; 
   
   }
@@ -94,7 +94,7 @@ body {
     margin-top: 20px;
     padding-left: 2.5rem; /* idk what 40px is in rem so*/
     /*height: 34px    liek idk oml what happened to the cpu again;*/
-    font-size: 3.2rem;
+    font-size: 3.5rem;
     stroke-width: 20%;
     animation-name: header;
     animation-duration: 1.4s;
@@ -208,7 +208,7 @@ body {
       height: 37px;
       stroke-width: 1.5px;
       color: white;
-      padding-top: 41px;
+      padding-top: 15px;
       padding-right: 30px;
       float: right;
       
@@ -253,8 +253,9 @@ body {
   
   
   .skill_text {
-    margin-left: 30px;
     padding-top: 2px;
+    margin-left: 30px;
+    margin-top: 16px; margin-bottom:16px;
     
   
   }
