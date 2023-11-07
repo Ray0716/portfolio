@@ -100,7 +100,7 @@ body {
     animation-name: header;
     animation-duration: 1.4s;
     animation-fill-mode: forwards;
-    animation-delay: 0.5s;
+    animation-delay: 1.0s;
     color: rgb(255, 255, 255);
     
     background-image: linear-gradient(#fff, #fff);
