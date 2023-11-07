@@ -176,6 +176,10 @@ body {
     flex:auto;
     }
 
+  .column {
+    flex:auto;
+  }
+
   @media screen and (max-width: 900px) {
     .column1 {
         width: 100%; /* Make both columns take full width on smaller screens */
