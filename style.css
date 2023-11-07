@@ -32,6 +32,7 @@ body {
     .row {
       display:block;
     }
+    
   }
   
   
@@ -167,9 +168,11 @@ body {
   }
   
   .column1 {
+    width: 60%;
     flex:auto;
   }
   .column2 {
+    width: 40%;
     flex:auto;
     }
 
@@ -215,6 +218,11 @@ body {
       content: "";
       display: table;
       clear: both;
+    }
+
+    .disc {
+      margin-left: 0px;
+      padding-left: 0px;
     }
     
 }
@@ -262,9 +270,10 @@ body {
     stroke-width: 1.5px;
     color: white;
     
+
     float: right;
 
-    margin-right:40px; margin-top:45px;
+    margin-right:30px; margin-top:40px;
       
     
   }
@@ -273,6 +282,19 @@ body {
 
   }
   
+.subrow {
+
+}
+
+.subcol {
+
+}
+
+.disc {
+  margin:0px;
+  padding:0px;
+}
+
   
   .small_icon {
     width: 27px;
