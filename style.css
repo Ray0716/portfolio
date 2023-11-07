@@ -275,17 +275,15 @@ body {
     height: 37px;
     stroke-width: 1.5px;
     color: white;
-    
-
     float: right;
-
-    margin-right:30px; margin-top:40px;
+    margin-right: 27px;
+    margin-top: 25px;
       
     
   }
 
   .last {
-
+    margin-right: 21px;
   }
   
 .subrow {
