@@ -72,9 +72,14 @@ body {
     
   @keyframes header {
     
+    0% {
+      background-position-x: 20px;
+
+    }
+
 
     100% {
-      background-position-x: 650px;
+      background-position-x: 560px;
 
     }
   }
@@ -94,7 +99,7 @@ body {
   .nameheader {
     font-family: IBM Plex Mono, Regular;
     font-weight: 400;
-    width: 600px;
+    width: 520px;
     word-wrap: break-word;
     line-height: 1.6;
     padding-top: 0px;
@@ -108,12 +113,14 @@ body {
     animation-duration: 1.4s;
     animation-fill-mode: forwards;
     animation-delay: 1.0s;
+    animation-timing-function: ease-in-out;
     color: rgb(255, 255, 255);
     
     background-image: linear-gradient(#fff, #fff);
     
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: 0% 0%;
+    background-position-x: 20px;
     
 
   }
