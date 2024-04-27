@@ -261,6 +261,18 @@ body {
 
 }
 
+.announceText {
+  color: rgb(243, 87, 87);
+  font-family: IBM Plex Mono, Regular;
+  word-wrap: break-word;
+  line-height: normal;
+  font-size: 1.30em;
+  padding-left: 40px;
+  font-weight: 350;
+
+
+}
+
   
   .proj_small_text {
     font-size: 15.0px;
